@@ -21,7 +21,7 @@
 
 // async function main() {
 //     try {
-//         await mongoose.connect('mongodb+srv://jayanth08:UCGojIdaVIZUlK4g@cluster0.vpir7jy.mongodb.net/Auth?retryWrites=true&w=majority');
+//         await mongoose.connect('');
 //     } catch (error) {
 //         console.log(error);
 //     }
