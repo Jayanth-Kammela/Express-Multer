@@ -90,9 +90,9 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
-const mongoURI = 'mongodb+srv://jayanth08:UCGojIdaVIZUlK4g@cluster0.vpir7jy.mongodb.net/Auth?retryWrites=true&w=majority';
+const mongoURI = '';
 
-const conn = mongoose.createConnection('mongodb+srv://jayanth08:UCGojIdaVIZUlK4g@cluster0.vpir7jy.mongodb.net/Auth?retryWrites=true&w=majority');
+const conn = mongoose.createConnection('');
 
 let gfs;
 
